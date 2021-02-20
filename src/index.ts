@@ -2,7 +2,6 @@ import express, {Application, Request, Response} from 'express';
 import router from './router';
 import path from 'path'
 import {productos} from './productos';
-import { allowedNodeEnvironmentFlags } from 'process';
 
 const app:Application = express();
 const http = require('http').createServer(app);
